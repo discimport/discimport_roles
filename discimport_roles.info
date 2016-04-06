@@ -1,0 +1,8 @@
+name = Discimport Roles
+description = Used for the roles needed to manage the store
+core = 7.x
+package = Discimport
+version = 7.x-1.0
+dependencies[] = features
+features[features_api][] = api:2
+features[user_role][] = store administrator
